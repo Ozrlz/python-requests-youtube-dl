@@ -6,3 +6,5 @@ services:
       context: .
       dockerfile: Dockerfile
     image: python-youtube-request
+    volumes:
+      - ./content:/home/content/
