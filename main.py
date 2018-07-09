@@ -6,9 +6,9 @@ from time import sleep
 from pdb import set_trace as debug
 
 BASE_URL = 'https://www.reddit.com/r/BlancNoir/comments/8azvhl/blancnoirmissnoir_all_videos/'
-PATTERN = re.pattern = re.compile(r'https://openload.co/f/[a-zA-Z0-9]*')
+PATTERN = re.pattern = re.compile(r'https://openload.co/f/[a-zA-Z0-9]+')
 PATH_FOLDER = '/home/content/'
-MINUTES_2_DELAY = 5
+MINUTES_2_DELAY = 0
 
 body_request = requests.get(BASE_URL, headers={'User-agent': 'Mozilla xd'})
 
