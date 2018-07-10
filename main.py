@@ -6,7 +6,11 @@ from time import sleep
 from pdb import set_trace as debug
 
 BASE_URL = 'https://www.reddit.com/r/BlancNoir/comments/8azvhl/blancnoirmissnoir_all_videos/'
+<<<<<<< HEAD
 PATTERN = re.pattern = re.compile(r'https://openload.co/f/[a-zA-Z0-9-]+')
+=======
+PATTERN = re.pattern = re.compile(r'https://openload.co/f/[a-zA-Z0-9]+')
+>>>>>>> 4bfca18d6816bcbf07908b4798d74be65c4ca238
 PATH_FOLDER = '/home/content/'
 MINUTES_2_DELAY = 0
 
