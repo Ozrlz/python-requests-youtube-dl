@@ -3,8 +3,6 @@ import re
 from os import system
 from time import sleep
 
-from pdb import set_trace as debug
-
 BASE_URL = 'https://www.reddit.com/r/BlancNoir/comments/8azvhl/blancnoirmissnoir_all_videos/'
 PATTERN = re.pattern = re.compile(r'https://openload.co/f/[a-zA-Z0-9-]+')
 PATH_FOLDER = '/home/content/'
